@@ -1,0 +1,67 @@
+body{
+  background-color:#F9F5F6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  font-family: ui-sans-serif;
+   
+}
+h1{
+  color: white;
+  border: none;
+  cursor:none;
+  background-color: #419197;
+  cursor: pointer;
+  font-family: ui-sans-serif;
+  font-weight: bold;
+  font-size: 50px;
+  padding:10px;
+  border-radius: 0px 150px 0px 0px;
+  --dot-bg: black;
+  --dot-color: white;
+  --dot-size: 1px;
+  --dot-space: 22px;
+	background:
+		linear-gradient(90deg, var(--dot-bg) calc(var(--dot-space) - var(--dot-size)), transparent 1%) center / var(--dot-space) var(--dot-space),
+		linear-gradient(var(--dot-bg) calc(var(--dot-space) - var(--dot-size)), transparent 1%) center / var(--dot-space) var(--dot-space),
+		var(--dot-color);
+    margin-bottom:0px;
+}
+form{
+  max-width:800px;
+  align-items: center;
+  padding:150px 150px 150px 150px;
+  display: flex;
+  --dot-bg:#F2BED1;
+  --dot-color: black;
+  --dot-size: 1px;
+  --dot-space: 22px;
+	background:
+		linear-gradient(90deg, var(--dot-bg) calc(var(--dot-space) - var(--dot-size)), transparent 1%) center / var(--dot-space) var(--dot-space),
+		linear-gradient(var(--dot-bg) calc(var(--dot-space) - var(--dot-size)), transparent 1%) center / var(--dot-space) var(--dot-space),
+		var(--dot-color);
+    -webkit-box-shadow: 10px -4px 21px 2px rgba(0,0,0,0.1);
+    -moz-box-shadow: 10px -4px 21px 2px rgba(0,0,0,0.1);
+    box-shadow: 10px -4px 21px 2px rgba(0,0,0,0.1);
+}
+form input {
+  margin-right: 5px;
+  padding:16px 40px 16px 40px ;
+  width: 100%;
+}
+
+form button {
+  border-radius: 2px;
+  padding: 10px 20px 10px 20px;
+  background-color: #F8E8EE;
+  color: black;
+  border: none;
+  cursor: pointer;
+  font-family: ui-sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+}
+#output{
+  display:flex;
+}
